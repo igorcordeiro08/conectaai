@@ -75,7 +75,7 @@
     left: 169px;
 }
 
-.cardapio{
+.produtos{
     padding-top:0;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -83,21 +83,21 @@
     gap:15px;
 }
 
-.cardapio h2{
+.produtos h2{
     margin-top:89px;
     grid-column: 1/-1;
     font-size: 24px;
     font-weight: 800;   
     text-align: center;
 }
-.cardapio h3{
+.produtos h3{
     grid-column: 1/-1;
     text-align: center;
     font-size: 20px;
     font-weight: 700;
 }
 
-.cardapio p{
+.produtos p{
     width: 70%;
     margin: 0 auto;
     grid-column: 1/-1;
@@ -109,7 +109,7 @@
 
 
 
-#burguer-cardapio1{
+#produto1{
     margin-top: 45px;
     margin-left: 320px;
     margin-right: 40px;
@@ -126,7 +126,7 @@
     width: 360px;
 }
 
-#burguer-cardapio2{
+#produto2{
     margin-top: 45px;
     margin-left: 40px;
     margin-right: 320px;
@@ -144,7 +144,7 @@
     
 }
 
-#burguer-cardapio2 img{
+#produto2 img{
     margin-bottom: 50px;
 }
 
