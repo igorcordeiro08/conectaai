@@ -1,0 +1,461 @@
+*{
+	padding:0;
+	margin: 0;
+    box-sizing: border-box;
+    font-family: Artigo;
+    text-decoration: none;
+}
+
+.bg{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 745px;
+
+}
+
+.bg header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 131px;
+    padding-right: 155px;
+
+}
+
+.bg header nav ul{
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
+
+.principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal .titulo{
+    max-width:100% ;
+    color: white;    
+    padding-left: 131px;
+}
+
+.principal .titulo h1{
+    font-size:64px;
+    font-weight: 700;
+}
+
+.principal img{
+    width: 326px;
+    height: 574px;
+    margin:0 auto;
+}
+
+.principal figure{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-self: center;
+}
+
+.principal span{
+    position: absolute;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    color: black;    
+    background-color: #00EC5B;
+    padding: 15px;
+    border-radius: 35px;
+    width: 188px;
+    height: 56px;
+    text-align: center;
+    left: 169px;
+}
+
+.cardapio{
+    padding-top:0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    gap:15px;
+}
+
+.cardapio h2{
+    margin-top:89px;
+    grid-column: 1/-1;
+    font-size: 24px;
+    font-weight: 800;   
+    text-align: center;
+}
+.cardapio h3{
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cardapio p{
+    width: 70%;
+    margin: 0 auto;
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 16px;
+    font-weight:400;
+}
+
+
+
+
+#burguer-cardapio1{
+    margin-top: 45px;
+    margin-left: 320px;
+    margin-right: 40px;
+    display: flex;
+    overflow: hidden;    
+    justify-self: right;
+    justify-items:center ;
+    align-items: center;    
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    height: 484px;
+    width: 360px;
+}
+
+#burguer-cardapio2{
+    margin-top: 45px;
+    margin-left: 40px;
+    margin-right: 320px;
+    display: flex;
+    overflow: hidden;    
+    justify-self: left;
+    justify-items:center ;
+    align-items: center;    
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    height: 484px;
+    width: 360px;
+    
+}
+
+#burguer-cardapio2 img{
+    margin-bottom: 50px;
+}
+
+
+.burguer-cardapio p{
+    max-width: 80%;
+}
+
+.cardapio .button-cardapio{  
+    background-color: #00EC5B;
+    padding: 15px;
+    font-size:14px;
+    font-family: Inter;
+    font-weight: 500;
+    text-decoration: none;
+    color:black;
+    border-radius: 35px;
+    width: 188px;
+    height: 56px;
+    text-align: center;
+    margin-top: 480px;
+    position:absolute;
+}
+
+.titulo-hamburguer{
+    text-align: center;
+    margin-top: 168px;
+    display: grid;  
+    
+    gap:0px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: start;
+    padding-left:154px;
+    padding-right:150px;
+    
+    
+    
+}
+
+.popular{
+    background-image: url(foto1.png);
+    width: 566px;
+    height: 811px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-self: stretch;
+
+
+}
+
+
+
+
+.terca{
+    border: 1px solid #000000  ;
+    background-color: black;
+    width: 571px;
+    height: 407px;
+    align-self: center;
+}
+
+.terca h3{
+    width: 367px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 103px;
+    margin-right: 103px;
+    color: white;
+    margin-top:  149px;
+    text-align: center;
+}
+
+.terca p{
+    padding-top: 10px;
+    color: white;
+}
+
+.quarta{
+    background-image: url(foto2.png);
+    width: 570px;
+    height: 406px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-self: stretch;
+}
+
+.quarta h3{
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41.66px;
+    padding-top: 180px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Responsividade*/
+
+
+@media(max-width: 735px){
+    .bg header{
+        justify-content:space-between;
+        padding-right: 25px;
+        padding-left: 14px;
+    }
+    .principal .titulo{
+        width:337px ;
+        height: 111px;           
+        padding-left: 35px;
+    }
+    .principal .titulo h1{
+        font-size:48px;        
+    }
+
+    .principal span{
+        margin-top: 32px;
+        left: 35px;    
+    }
+}
+
+@media(max-width: 375px){ 
+
+    .bg{
+        max-height: 812px;
+    }
+
+    .bg header{
+        padding-right: 26px;
+        padding-left: 15px;
+    }
+
+    .principal {
+        grid-template-columns: 1fr;
+    }
+
+    .principal img{   
+        grid-row: 1;
+        width: 212px;
+        height: 372px;
+        
+    }
+
+    .principal .titulo {
+        grid-row: 2;
+    }
+
+    .principal .titulo h1{
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .principal span{
+        margin-top: 72px;
+        width: 327px;
+        height: 56px;
+        left: 24px;
+    } 
+}
+
+.footer{
+    margin-top:126px ;
+    background-color: #00EC5B;
+    height: 290px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    flex-direction: row;
+
+ 
+
+}
+
+.footer .texto{
+    grid-column: 3;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer .texto h5{
+    
+    margin-top:-235px ;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.texto .button-black{  
+    
+    
+    background-color:black;
+    color: white;
+    padding: 15px;
+    width: 193px;
+    height: 56px;
+    font-family: Inter;
+    font-size:14px;
+    font-family: Inter;
+    font-weight: 500;
+    text-decoration: none;
+    justify-content: center;
+    border-radius: 35px;
+    text-align: center;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+#lata1 {
+    left: 204px;
+    bottom: 31px;
+   
+    transform: rotate(15deg);
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+
+#lata2 {
+    left: 60px;
+    bottom: -21px;
+
+    transform: rotate(-15deg);
+    grid-row: 1;
+    grid-column: 2;
+    position: relative;
+    
+}
+
+#lata3 {
+    bottom:82px;
+    right: -69px;
+    transform: rotate(15deg);
+    grid-column: 4;
+    position: relative;
+    
+}
+
+.form{
+    position: absolute;
+    background-color: #1B1F1C;
+    min-height: 792px;
+    min-width: 1440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.fale-conosco{
+    color: white;
+    justify-self: center;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.fale-conosco a{
+    margin-right:16.09px ;
+    
+}
+
+.fale-conosco p{
+    font-size: 12px;
+    position: relative;
+    bottom: 25px;
+    left: 80px;
+    
+}
+
+.form-grid{
+    display:  grid;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+   
+
+}
+.form-grid input::placeholder{
+    background-color: #1B1F1C;
+   
+
+}
+
+.form-grid span{
+    color: #00EC5B;
+}
+
+.form-grid h5{
+    color: #FFFFFF;
+    opacity:29% ;
+
+}
+
+
